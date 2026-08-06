@@ -19,12 +19,11 @@ export default function SnippetCreatePage() {
         code
       }
     })
-    console.log(snippet)
+    
 
     // after submit, take user to home page/root
     redirect('/')
   }
-
   return (
   <form className="" action={createSnippet}> 
     <h3 className="font-bold m-3">Create a Snippet</h3>
