@@ -50,7 +50,6 @@ export async function createSnippet(formState:{message:string}, formData: FormDa
       }
     })
 
-    throw new Error('Failed to save to database')
     } catch(err: unknown) {
         if (err instanceof Error) {
             return {
