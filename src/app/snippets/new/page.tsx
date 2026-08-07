@@ -17,7 +17,9 @@ export default function SnippetCreatePage() {
   }
 
   return (
-  <form className="" onSubmit={handleSubmit} action={action}> 
+  <form className="" 
+    onSubmit={handleSubmit} 
+  > 
     <h3 className="font-bold m-3">Create a Snippet</h3>
     <div className="flex flex-col gap-4">
       <div className="flex gap-4">
